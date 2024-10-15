@@ -1,0 +1,11 @@
+[package]
+name = "ntrip_rtcm_parser_flutter"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib", "staticlib"]
+
+[dependencies]
+flutter_rust_bridge = "=2.5.0"
+rtcm_parser = {git="https://github.com/TonyWelte/rtcm_parser.git"}
